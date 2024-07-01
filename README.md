@@ -1,0 +1,1 @@
+# bs-shop-cut-version
