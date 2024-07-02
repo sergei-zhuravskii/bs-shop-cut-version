@@ -20,7 +20,8 @@ function createFooter() {
 
   const footerNavLink1 = document.createElement('a');
   footerNavLink1.classList.add('footer__nav-item-link');
-  footerNavLink1.href = '/page-404.html';
+  footerNavLink1.href = 'page-404.html';
+  footerNavLink1.target = '_blank';
   footerNavLink1.textContent = 'Условия покупки';
   footerNavItem1.append(footerNavLink1); 
   
@@ -30,7 +31,8 @@ function createFooter() {
 
   const footerNavLink2 = document.createElement('a');
   footerNavLink2.classList.add('footer__nav-item-link');
-  footerNavLink2.href = '/page-404.html';
+  footerNavLink2.href = 'page-404.html';
+  footerNavLink2.target = '_blank';
   footerNavLink2.textContent = 'Политика конфиденциальности';
   footerNavItem2.append(footerNavLink2);  
 
@@ -40,7 +42,8 @@ function createFooter() {
 
   const footerNavLink3 = document.createElement('a');
   footerNavLink3.classList.add('footer__nav-item-link');
-  footerNavLink3.href = '/page-404.html';
+  footerNavLink3.href = 'page-404.html';
+  footerNavLink3.target = '_blank';
   footerNavLink3.textContent = 'Договор-оферта';
   footerNavItem3.append(footerNavLink3);  
 
@@ -50,7 +53,8 @@ function createFooter() {
 
   const footerNavLink4 = document.createElement('a');
   footerNavLink4.classList.add('footer__nav-item-link');
-  footerNavLink4.href = '/page-404.html';
+  footerNavLink4.href = 'page-404.html';
+  footerNavLink4.target = '_blank';
   footerNavLink4.textContent = 'FAQ';
   footerNavItem4.append(footerNavLink4);  
 
