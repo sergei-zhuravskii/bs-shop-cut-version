@@ -35,7 +35,6 @@ function createHeader() {
   const headerNavLink1 = document.createElement('a');
   headerNavLink1.classList.add('header__nav-item-link');
   headerNavLink1.href = 'index.html';
-  headerNavLink1.target = '_blank';
   headerNavLink1.textContent = 'Главная';
   headerNavItem1.append(headerNavLink1);  
 
@@ -85,7 +84,6 @@ function createHeader() {
   const navMobileItemLink1 = document.createElement('a');
   navMobileItemLink1.classList.add('nav-mobile__item-link_main');
   navMobileItemLink1.href = 'index.html';
-  navMobileItemLink1.target = '_blank';
   navMobileItemLink1.textContent = 'Главная';
   navMobileItem1.append(navMobileItemLink1);  
 
