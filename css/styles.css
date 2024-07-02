@@ -163,7 +163,7 @@ html {
   margin-right: 100px;
   width: 30px;
   height: 30px;
-  background-image: url(icons/cart-icon-no-active.svg);
+  background-image: url(/portfolio/icons/cart-icon-no-active.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -204,7 +204,7 @@ html {
 .header__search-icon { 
   width: 35px;
   height: 35px;
-  background-image: url(icons/search-icon.svg);
+  background-image: url(/portfolio/icons/search-icon.svg);
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: center;
@@ -431,7 +431,7 @@ html {
   margin-top: 3px;
   width: 13px;
   height: 13px;
-  background-image: url(icons/checks-icon-no-active.svg);
+  background-image: url(/portfolio/icons/checks-icon-no-active.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -670,7 +670,7 @@ html {
 .filter__mobile-btn-close {
   width: 30px;
   height: 30px;
-  background-image: url(icons/close-icon-no-active.svg);
+  background-image: url(/portfolio/icons/close-icon-no-active.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -692,7 +692,7 @@ html {
   margin-top: 3px;
   width: 13px;
   height: 13px;
-  background-image: url(icons/checks-icon-no-active.svg);
+  background-image: url(/portfolio/icons/checks-icon-no-active.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -812,7 +812,7 @@ html {
 .sorting__mobile-btn-close {
   width: 30px;
   height: 30px;
-  background-image: url(icons/close-icon-no-active.svg);
+  background-image: url(/portfolio/icons/close-icon-no-active.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -999,7 +999,7 @@ html {
   }
 
   .header__cart:hover {
-    background-image: url(icons/cart-icon-active.svg);
+    background-image: url(/portfolio/icons/cart-icon-active.svg);
   }
 
   .header__cart:active {
@@ -1057,7 +1057,7 @@ html {
   }
 
   #filter-types:hover > .filter__types-icon {
-    background-image: url(icons/checks-icon-active.svg);
+    background-image: url(/portfolio/icons/checks-icon-active.svg);
   }
 
   .filter__type:hover {
@@ -1104,7 +1104,7 @@ html {
   }
 
   #filter-item-mobile-2:hover > .filter__types-mobile-icon {
-    background-image: url(icons/checks-icon-active.svg);
+    background-image: url(/portfolio/icons/checks-icon-active.svg);
   }
 
   .filter__item-mobile:active {
@@ -1112,7 +1112,7 @@ html {
   }
 
   .filter__mobile-btn-close:hover {
-    background-image: url(icons/close-icon-active.svg);
+    background-image: url(/portfolio/icons/close-icon-active.svg);
   }
 
   .filter__mobile-btn-close:active {
@@ -1139,7 +1139,7 @@ html {
   }
 
   .sorting__mobile-btn-close:hover {
-    background-image: url(icons/close-icon-active.svg);
+    background-image: url(/portfolio/icons/close-icon-active.svg);
   }
 
   .sorting__mobile-btn-close:active {
@@ -1181,7 +1181,7 @@ html {
   }
 
   .header__cart:active {
-    background-image: url(icons/cart-icon-active.svg);
+    background-image: url(/portfolio/icons/cart-icon-active.svg);
   }
 
   .header__search-icon:active {
@@ -1218,7 +1218,7 @@ html {
   }
 
   #filter-types:active > .filter__types-icon {
-    background-image: url(icons/checks-icon-active.svg);
+    background-image: url(/portfolio/icons/checks-icon-active.svg);
   }
 
   .filter__type:active {
@@ -1252,11 +1252,11 @@ html {
   }
 
   #filter-item-mobile-2:active > .filter__types-mobile-icon {
-    background-image: url(icons/checks-icon-active.svg);
+    background-image: url(/portfolio/icons/checks-icon-active.svg);
   }
 
   .filter__mobile-btn-close:active {
-    background-image: url(icons/close-icon-active.svg);
+    background-image: url(/portfolio/icons/close-icon-active.svg);
   }
 
   .filter__type-mobile:active {
@@ -1271,7 +1271,7 @@ html {
   }
 
   .sorting__mobile-btn-close:active {
-    background-image: url(icons/close-icon-active.svg);
+    background-image: url(/portfolio/icons/close-icon-active.svg);
   }
 
   /* card */
