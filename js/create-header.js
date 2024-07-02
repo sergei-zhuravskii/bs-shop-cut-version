@@ -45,7 +45,6 @@ function createHeader() {
   const headerNavLink2 = document.createElement('a');
   headerNavLink2.classList.add('header__nav-item-link');
   headerNavLink2.href = 'page-404.html';
-  headerNavLink2.target = '_blank';
   headerNavLink2.textContent = 'О магазине';
   headerNavItem2.append(headerNavLink2);
 
@@ -56,7 +55,6 @@ function createHeader() {
   const headerNavLink3 = document.createElement('a');
   headerNavLink3.classList.add('header__nav-item-link');
   headerNavLink3.href = 'page-404.html';
-  headerNavLink3.target = '_blank';
   headerNavLink3.textContent = 'Контакты';
   headerNavItem3.append(headerNavLink3);
 
@@ -94,7 +92,6 @@ function createHeader() {
   const navMobileItemLink2 = document.createElement('a');
   navMobileItemLink2.classList.add('nav-mobile__item-link_main');
   navMobileItemLink2.href = 'page-404.html';
-  navMobileItemLink2.target = '_blank';
   navMobileItemLink2.textContent = 'О магазине';
   navMobileItem2.append(navMobileItemLink2);  
 
@@ -115,7 +112,6 @@ function createHeader() {
   const navMobileItemLink4 = document.createElement('a');
   navMobileItemLink4.classList.add('nav-mobile__item-link_secondary');
   navMobileItemLink4.href = 'page-404.html';
-  navMobileItemLink4.target = '_blank';
   navMobileItemLink4.textContent = 'Условия покупки';
   navMobileItem4.append(navMobileItemLink4);  
 
@@ -126,7 +122,6 @@ function createHeader() {
   const navMobileItemLink5 = document.createElement('a');
   navMobileItemLink5.classList.add('nav-mobile__item-link_secondary');
   navMobileItemLink5.href = 'page-404.html';
-  navMobileItemLink5.target = '_blank';
   navMobileItemLink5.textContent = 'Политика конфиденциальности';
   navMobileItem5.append(navMobileItemLink5); 
   
@@ -137,7 +132,6 @@ function createHeader() {
   const navMobileItemLink6 = document.createElement('a');
   navMobileItemLink6.classList.add('nav-mobile__item-link_secondary');
   navMobileItemLink6.href = 'page-404.html';
-  navMobileItemLink6.target = '_blank';
   navMobileItemLink6.textContent = 'Договор-оферта';
   navMobileItem6.append(navMobileItemLink6);  
 
@@ -148,7 +142,6 @@ function createHeader() {
   const navMobileItemLink7 = document.createElement('a');
   navMobileItemLink7.classList.add('nav-mobile__item-link_secondary');
   navMobileItemLink7.href = 'page-404.html';
-  navMobileItemLink7.target = '_blank';
   navMobileItemLink7.textContent = 'FAQ';
   navMobileItem7.append(navMobileItemLink7); 
   
@@ -166,7 +159,6 @@ function createHeader() {
   const headerCart = document.createElement('a'); // header cart
   headerCart.classList.add('header__cart');
   headerCart.href = 'page-404.html';
-  headerCart.target = '_blank';
   headerCartSearchContainer.append(headerCart);
 
   const headerSearch = document.createElement('div'); // header search
