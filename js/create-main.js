@@ -1,11 +1,11 @@
 
 // import array (products)
 
-import products from '/bs-shop-cut-version/js/products.js'; // products
+import products from '/bs-shop-cut-version/bs-shop-cut-version/js/products.js'; // products
 
 // import functions
 
-import createCards from '/bs-shop-cut-version/js/create-cards.js'; // Create cards
+import createCards from '/bs-shop-cut-version/bs-shop-cut-version/js/create-cards.js'; // Create cards
 
 import sortingPriceIncrease from '/bs-shop-cut-version/js/sorting/sorting-price-increase.js'; // sorting (price increase)
 
@@ -26,6 +26,8 @@ import showFilterMobile from '/bs-shop-cut-version/js/showing/show-filter-mobile
 import showFilterTypesMobile from '/bs-shop-cut-version/js/showing/show-filter-types-mobile.js'; // show filter types (mobile)
 
 import showSortingMobile from '/bs-shop-cut-version/js/showing/show-sorting-mobile.js'; // show sorting panel (mobile)
+
+import showNotice from '/bs-shop-cut-version/js/showing/show-notice.js'; // show notice
 
 // create <main>
 
@@ -420,6 +422,30 @@ function createMain() {
   // show more (action)
 
   moreBtn.addEventListener('click', () => showMore()); 
+  
+  // notice // modal-window
+
+  const noticeModalContainer = document.createElement('div'); 
+  noticeModalContainer.classList.add('notice__modal-container', 'hidden');
+  mainContainer.append(noticeModalContainer);
+
+  const noticeModal = document.createElement('div');
+  noticeModal.classList.add('notice__modal');
+  noticeModalContainer.append(noticeModal);
+
+  const modalDescription = document.createElement('p');
+  modalDescription.classList.add('modal__description');  
+  modalDescription.textContent = 'Данный сайт не является коммерческим проектом, а является результатом самостоятельной учебной работы при изучении курса вебразработки. Марка «Lifts & Escalators», контактные данные и реквизиты компании, условия работы с компанией, а также все прочие условия, обстоятельства и материалы, представленные на сайте, носят исключительно вымышленный характер и являются частью общего выдуманного контента (любые совпадения с реальными лицами, проектами и с прочими обстоятельствами случайны).';
+  noticeModal.append(modalDescription);
+
+  const modalBtn = document.createElement('div');
+  modalBtn.classList.add('modal__btn');
+  modalBtn.textContent = 'Понятно';
+  noticeModal.append(modalBtn);
+
+  // show notice  
+
+  showNotice();
 
   // return
 
