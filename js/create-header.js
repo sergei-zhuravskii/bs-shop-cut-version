@@ -148,8 +148,7 @@ function createHeader() {
   const headerLogo = document.createElement('img'); // header logo
   headerLogo.classList.add('header__logo');
   headerLogo.src = 'icons/logo.png';
-  headerLogo.alt = 'Логотип компании';
-  headerLogo.title = 'Данный сайт не является коммерческим проектом, а является результатом самостоятельной учебной работы при изучении курса вебразработки. Марка «Bait Store», контактные данные и реквизиты интернет-магазина, условия работы с интернет-магазином, а также все товары, представленные на сайте, носят исключительно информационный характер и являются частью общего вымышленного контента (любые совпадения с реальными лицами, проектами и с прочими обстоятельствами случайны).';
+  headerLogo.alt = 'Логотип компании';  
   headerNavLogoWrapper.append(headerLogo);
 
   const headerCartSearchContainer = document.createElement('div'); // header cart search container
