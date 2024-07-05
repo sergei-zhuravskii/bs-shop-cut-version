@@ -1,11 +1,11 @@
 
 // import array (products)
 
-import products from '/bs-shop-cut-version/bs-shop-cut-version/js/products.js'; // products
+import products from '/bs-shop-cut-version/js/products.js'; // products
 
 // import functions
 
-import createCards from '/bs-shop-cut-version/bs-shop-cut-version/js/create-cards.js'; // Create cards
+import createCards from '/bs-shop-cut-version/js/create-cards.js'; // Create cards
 
 import sortingPriceIncrease from '/bs-shop-cut-version/js/sorting/sorting-price-increase.js'; // sorting (price increase)
 
