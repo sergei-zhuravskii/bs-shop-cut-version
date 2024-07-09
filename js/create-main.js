@@ -439,9 +439,13 @@ function createMain() {
   noticeModal.append(modalDescription);
 
   const modalBtn = document.createElement('div');
-  modalBtn.classList.add('modal__btn');
-  modalBtn.textContent = 'Понятно';
+  modalBtn.classList.add('modal__btn', 'btn');
   noticeModal.append(modalBtn);
+
+  const modalBtnTitle = document.createElement('span');
+  modalBtnTitle.classList.add('modal__btn-title');
+  modalBtnTitle.textContent = 'Понятно';
+  modalBtn.append(modalBtnTitle);
 
   // show notice  
 
