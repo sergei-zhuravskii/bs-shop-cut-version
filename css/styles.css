@@ -1183,7 +1183,11 @@ html {
   /* notice *//* modal-window */
 
   .modal__btn:active {
-    background-color: var(--black);
+    background-color: var(--dark-grey);
+  }
+
+  .modal__btn:active > span {
+    color: var(--white);
   }
 
   /* footer */
