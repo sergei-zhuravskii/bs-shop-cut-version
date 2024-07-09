@@ -820,11 +820,13 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 220px;
   height: 50px;
-  width: fit-content;
-  padding-left: 40px;
-  padding-right: 40px;
-  background-color: var(--red);
+  background-color: var(--white);
+  outline: 2px solid var(--dark-grey);
+  outline-offset: -2px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -832,8 +834,8 @@ html {
 .modal__btn span {
   font-size: 16px;
   line-height: 100%;
-  font-weight: 400;
-  color: var(--white);
+  font-weight: 700;
+  color: var(--dark-grey);
 }
 
 /* footer */
