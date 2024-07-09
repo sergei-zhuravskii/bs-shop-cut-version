@@ -1486,3 +1486,13 @@ html {
   }   
 
 }
+
+@media (max-width: 360px) {
+
+  /* notice *//* modal-window */
+
+  .modal__btn {
+    width: 100%;
+  }
+
+}
