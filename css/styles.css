@@ -817,15 +817,23 @@ html {
 }
 
 .modal__btn {
-  display: inline-block;
-  padding: 18px 32px 18px 32px;
-  font-size: 16px;
-  line-height: 100%;
-  font-weight: 400;
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: fit-content;
+  padding-left: 40px;
+  padding-right: 40px;
   background-color: var(--red);
   border-radius: 4px;
   cursor: pointer;
+}
+
+.modal__btn span {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+  color: var(--white);
 }
 
 /* footer */
