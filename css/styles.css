@@ -348,8 +348,7 @@ html {
 .sorting__item {
   background-color: var(--white);
   border-radius: 4px;
-  outline: 1px solid var(--black);
-  outline-offset: -1px;
+  border: 1px solid var(--black);
 }
 
 .filter__item:not(:last-child),
@@ -389,8 +388,7 @@ html {
   width: 100%;
   background-color: var(--white);
   border-radius: 4px;
-  outline: 1px solid var(--black);
-  outline-offset: -1px;
+  border: 1px solid var(--black);
 }
 
 #filter-types:hover .filter__types-wrapper {
@@ -419,8 +417,7 @@ html {
   width: calc((100% - 60px)/5);
   height: 50px;
   background-color: var(--white);
-  outline: 1px solid var(--black);
-  outline-offset: -1px;
+  border: 1px solid var(--black);
   border-radius: 4px;  
 }
 
@@ -460,8 +457,7 @@ html {
   height: 50px;
   width: 100%;
   background-color: var(--white);
-  outline: 1px solid var(--black);
-  outline-offset: -1px;
+  border: 1px solid var(--black);
   border-radius: 4px;  
 }
 
@@ -534,8 +530,7 @@ html {
   height: 50px;
   background-color: var(--white);
   border-radius: 4px;
-  outline: 1px solid var(--black);
-  outline-offset: -1px;
+  border: 1px solid var(--black);
 }
 
 .filter__item-mobile:first-child {
@@ -656,8 +651,7 @@ html {
   height: 50px;
   background-color: var(--white);
   border-radius: 4px;
-  outline: 1px solid var(--black);
-  outline-offset: -1px;
+  border: 1px solid var(--black);
 }
 
 .sorting__item-mobile:hover {
@@ -829,8 +823,7 @@ html {
   width: 220px;
   height: 50px;
   background-color: var(--white);
-  outline: 2px solid var(--dark-grey);
-  outline-offset: -2px;
+  border: 2px solid var(--dark-grey);
   border-radius: 4px;
   cursor: pointer;
 }
